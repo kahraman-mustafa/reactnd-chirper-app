@@ -1,4 +1,4 @@
-import { RECEIVE_TWEETS } from "../actions/tweets.js";
+import { RECEIVE_TWEETS } from "../actions/tweetsActions.js";
 
 export default function tweets(state = {}, action){
     switch(action.type){
