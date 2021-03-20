@@ -5,7 +5,7 @@ import NewTweet from "./NewTweet";
 
 class TweetPage extends Component {
     render() {
-        const {id, replies, tweets} = this.props;
+        const {id, replies} = this.props;
 
         return (
             <div>
